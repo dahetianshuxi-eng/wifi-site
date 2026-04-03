@@ -59,3 +59,23 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+/* 見出しを強調 */
+.card h2 {
+    color: #333;
+}
+
+/* 結論カードを目立たせる */
+.card:first-of-type {
+    border-left: 5px solid #0078D7;
+}
+
+/* 対処法カードだけ色変える */
+.card:nth-of-type(3) {
+    border-left: 5px solid green;
+}
+
+/* 最後のカード（おすすめ）を強調 */
+.card:last-of-type {
+    border-left: 5px solid orange;
+}
