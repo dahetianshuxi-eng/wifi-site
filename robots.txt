@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://dahetianshuxi-eng.github.io/wifi-site/sitemap.xml
